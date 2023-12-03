@@ -38,7 +38,7 @@ function Dashboard() {
                             <div className="sidebar-brand-icon rotate-n-15">
                                 <i className="fas fa-laugh-wink"></i>
                             </div>
-                            <div className="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                            <div className="sidebar-brand-text mx-3">Admin Panel<sup>2</sup></div>
                             <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
                         </div>
@@ -102,7 +102,7 @@ function Dashboard() {
 
                         {/* <!-- Heading --> */}
                         <div className="sidebar-heading">
-                            Addons
+                            statistics
                         </div>
 
                         {/*  <!-- Nav Item - Pages Collapse Menu --> */}
@@ -110,7 +110,7 @@ function Dashboard() {
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                                 aria-expanded="true" aria-controls="collapsePages">
                                 <i className="fas fa-fw fa-folder"></i>
-                                <span>Pages</span>
+                                <span>Users</span>
                             </a>
                             <div id="collapsePages" className="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
@@ -130,14 +130,14 @@ function Dashboard() {
                         <li className="nav-item">
                             <a className="nav-link" href="charts.html">
                                 <i className="fas fa-fw fa-chart-area"></i>
-                                <span>Charts</span></a>
+                                <span>Projects</span></a>
                         </li>
 
                         {/*  <!-- Nav Item - Tables --> */}
                         <li className="nav-item">
                             <a className="nav-link" href="tables.html">
                                 <i className="fas fa-fw fa-table"></i>
-                                <span>Tables</span></a>
+                                <span>To-Do List</span></a>
                         </li>
 
                         {/* <!-- Divider --> */}
@@ -151,7 +151,7 @@ function Dashboard() {
                         {/*  <!-- Sidebar Message --> */}
                         <div className="sidebar-card d-none d-lg-flex">
                             <img className="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="..." />
-                            <p className="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
+                            <p className="text-center mb-2"><strong>Admin Panel</strong> is packed with premium features, components, and more!</p>
                             <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
                         </div>
 
@@ -336,7 +336,7 @@ function Dashboard() {
                                     <li className="nav-item dropdown no-arrow">
                                         <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                            <span className="mr-2 d-none d-lg-inline text-gray-600 small">Medani Tripathi</span>
                                             <img className="img-profile rounded-circle"
                                                 src="img/undraw_profile.svg" />
                                         </a>
@@ -676,14 +676,11 @@ function Dashboard() {
                                         {/* <!-- Approach --> */}
                                         <div className="card shadow mb-4">
                                             <div className="card-header py-3">
-                                                <h6 className="m-0 font-weight-bold text-primary">Development Approach</h6>
+                                                <h6 className="m-0 font-weight-bold text-primary">Approach</h6>
                                             </div>
                                             <div className="card-body">
-                                                <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classNamees in order to reduce
-                                                    CSS bloat and poor page performance. Custom CSS classNamees are used to create
-                                                    custom components and custom utility classNamees.</p>
-                                                <p className="mb-0">Before working with this theme, you should become familiar with the
-                                                    Bootstrap framework, especially the utility classNamees.</p>
+                                                <p>An admin dashboard is a centralized interface that provides administrators with real-time insights and control over key aspects of a system or application. It typically displays critical metrics, analytics, and status summaries, allowing administrators to monitor performance, manage users, and make informed decisions.</p>
+                                                <p className="mb-0">The dashboard design focuses on user-friendly visualization, offering an efficient means for administrators to navigate and interact with data.</p>
                                             </div>
                                         </div>
 

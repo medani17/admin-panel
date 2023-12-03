@@ -347,7 +347,7 @@ function Dashboard() {
                                                 Medani Tripathi
                                             <div className="dropdown-divider"></div>
                                             <a className="dropdown-item" href="#">
-                                                <i className="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                <i class="font-weight-bold mr-2 text-gray-400"></i>
                                                 Profile
                                             </a>
                                             <a className="dropdown-item" href="#">
